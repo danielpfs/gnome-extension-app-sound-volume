@@ -1,0 +1,8 @@
+{
+  "name": "App Sound Volume",
+  "description": "control the volume of programs with shortcut",
+  "uuid": "app-sound-volume@danielsoares.dev",
+  "shell-version": [
+    "43"
+  ]
+}
