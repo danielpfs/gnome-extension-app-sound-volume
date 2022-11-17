@@ -2,20 +2,20 @@
 <schemalist>
     <schema id="org.gnome.shell.extensions.app-sound-volume.danielsoares" path="/org/gnome/shell/extensions/mycoolstuff/">
         <key name="app-lower-volume" type="as">
-            <default><![CDATA[['<Alt>AudioLowerVolume']]]></default>
+            <default><![CDATA[['<Super>AudioLowerVolume']]]></default>
             <summary>Hotkey to lower volume of app.</summary>
         </key>
         <key name="app-raise-volume" type="as">
-            <default><![CDATA[['<Alt>AudioRaiseVolume']]]></default>
+            <default><![CDATA[['<Super>AudioRaiseVolume']]]></default>
             <summary>Hotkey to raise volume of app.</summary>
         </key>
         <key name="previous-app-volume" type="as">
-            <default><![CDATA[['<Ctrl><Alt>AudioLowerVolume']]]></default>
-            <summary>Hotkey to raise volume of app.</summary>
+            <default><![CDATA[['<Alt>AudioLowerVolume']]]></default>
+            <summary>Change index of app to change volume.</summary>
         </key>
         <key name="next-app-volume" type="as">
-            <default><![CDATA[['<Ctrl><Alt>AudioRaiseVolume']]]></default>
-            <summary>Hotkey to raise volume of app.</summary>
+            <default><![CDATA[['<Alt>AudioRaiseVolume']]]></default>
+            <summary>Change index of app to change volume.</summary>
         </key>
     </schema>
 </schemalist>
